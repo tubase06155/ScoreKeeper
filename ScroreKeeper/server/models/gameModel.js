@@ -9,12 +9,11 @@ const GameSchema = new Schema({
         Player4:String
     },
     Round:[{
-        Score1:number,
-        Score2:number,
-        Score3:number,
-        Score4:number,
-    }],
-    timestamps:true
+        Score1:Number,
+        Score2:Number,
+        Score3:Number,
+        Score4:Number,
+    }]
     
 });
 
